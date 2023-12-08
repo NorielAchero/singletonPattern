@@ -8,7 +8,7 @@ public class PagIbigOfficeDeskStation {
 
         Scanner scan = new Scanner(System.in);
 
-        CentralizedQueuingSystem q = new CentralizedQueuingSystem();
+        CentralizedQueuingSystem q = CentralizedQueuingSystem.getInstance();
 
         System.out.println("PAG-IBIG OFFICE CENTRALIZED QUEUING SYSTEM\n");
 

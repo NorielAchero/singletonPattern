@@ -9,14 +9,14 @@ public class CentralizedQueuingSystem {
     private int helpDeskCCurrentQueueNumber;
 
 
-    public CentralizedQueuingSystem() {
+    private CentralizedQueuingSystem() {
         helpDeskACurrentQueueNumber = 1;
         helpDeskBCurrentQueueNumber = 1;
         helpDeskCCurrentQueueNumber = 1;
 
     }
 
-    public synchronized CentralizedQueuingSystem getInstance(){
+    public static synchronized CentralizedQueuingSystem getInstance(){
         if(instance == null)
             instance = new CentralizedQueuingSystem();
         return instance;
