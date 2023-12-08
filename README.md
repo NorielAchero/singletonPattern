@@ -9,4 +9,6 @@ This approach aims to maintain an organized queuing process for individuals visi
 
 
 # Class Diagram
-![Singleton Design Pattern]()
+![CommandPattern - Page 6](https://github.com/NorielAchero/singletonPattern/assets/142378544/4f92c63c-d9f9-418e-8077-d4dc3f268fa3)
+
+
